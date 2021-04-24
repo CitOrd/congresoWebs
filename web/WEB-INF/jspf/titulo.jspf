@@ -1,0 +1,14 @@
+<%-- 
+    titulo.jspf
+    Fragmento de pagina que contiene el titulo de la aplicación web Congreso Web. 
+--%>
+<%@ page pageEncoding="UTF-8" %>
+
+
+<header>
+    <img class="logo" alt="logo" src="imagenes/logo_cf.png">
+    <h2 class="titulo1">Congreso Web</h2> 
+</header>
+
+
+

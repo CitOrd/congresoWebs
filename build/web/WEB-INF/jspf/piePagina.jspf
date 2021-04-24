@@ -1,0 +1,12 @@
+<%-- 
+    piePagina.jspf
+    Fragmento de página que contiene el pie de pagina 
+
+--%>
+<%@ page pageEncoding="UTF-8" %>
+
+<footer>
+    <p>Dise&ntilde;ador: Citlali Ordu&ntilde;o  
+     Celular: 64-44-08-56-90
+     Correo: citlaliordunoun@gmail.com</p>  
+</footer>

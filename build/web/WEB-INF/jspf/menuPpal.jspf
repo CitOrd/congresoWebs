@@ -1,0 +1,12 @@
+<%-- menuPpal.jspf
+Fragmento de pagina el cual nos brinda el menu principal de la aplicacion. --%>
+
+<%@ page pageEncoding="UTF-8" %>
+
+<nav>
+    <ul id="menu">
+        <li><a href="conferencias.jsp">Registro de Conferencias</a></li>
+        <li><a href="profesionistas.jsp">Registro de Profesionistas</a></li>
+    </ul>
+</nav>    
+

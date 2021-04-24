@@ -1,0 +1,311 @@
+/*
+    estillos.css
+    Esta hoja establece las reglas de estilo para la aplicación web Congreso Web.
+*/
+
+/* Regla de estilo para la división con el logotipo dentro del encabezado*/
+header{
+   position:absolute;
+   top: 0;
+   left: 0;
+   height: 140px;
+   width: 100%;
+   border: 1px solid silver;
+   text-align: center;
+   background-color: #1BBE8A;
+       
+}
+
+img.logo{
+    width: 270px;
+    height: 140px;
+    float: left;
+}
+h2.titulo1{
+     align-content: center;
+     margin-right: 300px;
+     color: #eee;
+     font-size:50px;
+     font-family: monospace;
+}
+
+/* Regla de estilo para la lista no ordenada que forma
+   la barra de navegacion */
+nav{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 250px;
+    height: calc(100% - 154px);
+    border: 1px solid silver;
+    background: url(imagenes/fonditonav.jpg);
+}
+/* Regla de estilo para la lista no ordenada que forma
+   la barra de navegacion */
+nav ul {
+    width:250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Regla de estilo para los elementos de la lista dentro
+   de la barra de navegacion */
+nav li {
+  position: relative;
+  width: 250px;
+  float: left;
+  clear: left;
+}
+
+/* Regla de estilo para la lista no ordenada que forma
+   la barra de navegacion */
+nav li a {
+    display: block;
+    width: 230px; 
+    font-family: sans-serif; 
+    text-decoration: none;
+    color: #000;
+    background-color: #F7E6B5;
+    line-height: 4em;
+    text-align: center;
+    height: 4em;
+    padding: 0 10px;
+    border-bottom: 1px solid Silver;
+}
+
+/* Regla de estilo para las ligas no visitadas dentro de la 
+   barra de navegacion */
+nav a:link {
+      color: brown; 
+}
+
+/* Regla de estilo para las ligas visitadas dentro de la 
+   barra de navegacion */
+nav a:visited {
+      color: crimson; 
+}
+
+/* Regla de estilo para las ligas dentro de la barra de navegacion
+   sobre las que se pasa el raton */
+nav a:hover {
+    color: #eee;
+    background-color: #EC9D77;
+}
+
+footer{
+    font-family: monospace;
+    background-color: #7C4704;
+    margin-top: 350px;
+    margin-left: 252px;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+
+div.tabla {
+  margin: auto;  
+  display: table;
+
+}
+
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+div.tituloTabla {
+    display: table-caption;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div.fila {
+   border-bottom: 1px solid Silver;
+   display: table-row;
+   border: 200px;
+   border-radius:10px;
+  
+}
+
+div.celda {
+  display: table-cell;
+  padding: 6px;
+
+}
+
+label{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.celdaDerecha {
+  display: table-cell;
+  text-align: right;
+  border-radius: 6px;
+}
+
+div.centrada { 
+    text-align: center;
+}
+
+/* Regla de estilo para los titulos de las tablas */
+caption {
+   caption-side: top;
+   margin-bottom: 0.5em;
+   font-size: 150%;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+/* Regla de estilo para elementos de entrada de solo lectura */
+input[readonly] {
+    background-color: #ddd;
+}
+
+table{
+    border: 2px solid black;
+    empty-cells: show;
+    margin: auto; 
+    
+   
+    
+}
+
+table.despl{
+     border: 2px solid black;
+    empty-cells: show;
+    margin: auto; 
+    margin-top: 100px;
+}
+
+th.columnaT{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px;
+    background-color: chocolate;
+}
+
+th{
+    border: solid 1px;
+    width: 10em;
+    
+}
+
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px;
+    width: 400px;
+    height: 10px;
+  
+}
+
+
+td.filaTbl{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px;
+    background-color: darkolivegreen;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+}
+
+form.cptCnf{
+        width: 600px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #F7E6B5;
+        margin-top: 200px;
+}
+
+button{
+    border-radius: 6px;
+    font-family: cursive;
+    background-color: appworkspace;
+    
+}
+
+select{
+    border-radius: 3px;
+}
+
+input{
+    border-radius: 4px;
+}
+
+div.centrado{
+        width: 600px;
+	padding:16px;
+	margin:auto;
+        margin-top: 200px;
+        float: auto;
+}
+
+div ul {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+/* Regla de estilo para los elementos de la lista dentro
+   de la barra de navegacion */
+div li {
+  position: relative;
+  width: 600px;
+  float: left;
+  clear: left;
+
+
+}
+
+/* Regla de estilo para la lista no ordenada que forma las opciones de menu */
+div li a {
+    display: block;
+    width: 600px;
+    font-family: sans-serif; 
+    text-decoration: none;
+    color: #000;
+    background-color: #F7E6B5;
+    border-bottom: 1px solid Silver;
+    line-height: 4em;
+    text-align: center;
+    height: 4em;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+/* Regla de estilo para las ligas no visitadas dentro de las opciones de menu */
+div a:link {
+      color: brown; 
+}
+
+/* Regla de estilo para las ligas visitadas dentro del las opciones del menu */
+div a:visited {
+      color: crimson; 
+}
+
+/* Regla de estilo para las ligas dentro de las opciones de menu
+   sobre las que se pasa el raton */
+div a:hover {
+    color: #eee;
+    background-color: #EC9D77;
+}
+
+main{
+    width: 600px;
+	padding:16px;
+	margin:auto;
+        margin-bottom: 600px;
+        margin-top: 700px; 
+}
+

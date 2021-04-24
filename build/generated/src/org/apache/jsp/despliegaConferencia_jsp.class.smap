@@ -1,0 +1,30 @@
+SMAP
+despliegaConferencia_jsp.java
+JSP
+*S JSP
+*F
++ 0 despliegaConferencia.jsp
+despliegaConferencia.jsp
++ 1 titulo.jspf
+WEB-INF/jspf/titulo.jspf
++ 2 menuConferencias.jspf
+WEB-INF/jspf/menuConferencias.jspf
++ 3 piePagina.jspf
+WEB-INF/jspf/piePagina.jspf
+*L
+6,10:51
+16:61,2
+17:63
+4#1,12:64
+17#0,2:75
+19:77,2
+20:79
+2#2,16:80
+20#0,4:95
+24:99,2
+25,27:101
+52:128,2
+53:130
+5#3,9:131
+53#0,4:139
+*E

@@ -1,0 +1,17 @@
+<%-- menuConferencias.jspf
+Fragmento de pagina en el cual contiene el menu principal de la pagina Conferencias.jsp --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<main>
+    <nav >
+        
+        <ul>
+            <li><a href="capturaClave.jsp">Agregar Conferencia</a></li>
+            <li><a href="capturaConferencia.jsp">Actualizar Conferencia</a></li>
+            <li><a href="seleccionaConferenciaEliminar.jsp">Eliminar Conferencia</a></li>
+            <li><a href="despliegaConferencias.jsp">Consultar Conferencia</a></li>
+            <li><a href="index.jsp">Regresar a men&uacute; principal</a></li>
+        </ul>
+
+    </nav>
+</main>

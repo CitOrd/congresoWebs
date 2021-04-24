@@ -1,0 +1,13 @@
+<%-- menuProfesionistas.jspf
+     Fragmento de pagina el cual tiene el menu principal de profesionistas --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<main>
+    <nav>
+        <ul>
+            <li><a href="capturaProfesionista.jsp">Agregar Profesionista</a></li>
+            <li><a href="index.jsp">Regresar a men&uacute; principal</a></li>
+        </ul>
+
+    </nav>
+</main>
